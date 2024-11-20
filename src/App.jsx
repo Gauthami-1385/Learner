@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import PokeApi from "./pages/Pokemon";
 import Home from "./pages/Home";
 import Framer from "./pages/Framer";
+import Loader from "./components/Loader";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pokiApi" element={<PokeApi />} />
-        <Route path="/framer" element={<Framer />} />
+        <Route path="/framer" element={<Framer />} />{" "}
+        <Route path="/loader" element={<Loader />} />
       </Routes>
     </>
   );

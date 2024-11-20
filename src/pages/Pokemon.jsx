@@ -39,7 +39,7 @@ const PokiApi = () => {
     history("/");
   };
   return (
-    <div className="bg-black bg-no-repeat bg-cover border border-green-500 text-white p-8 font-roboto">
+    <div className=" min-h-screen bg-black bg-no-repeat bg-cover border border-green-500 text-white p-8 font-roboto">
       <div>
         <IoArrowBackOutline className="w-10 h-10" onClick={handleBack} />
       </div>
